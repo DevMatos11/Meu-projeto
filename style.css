@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: blue;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo {
+    display: inline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+}
+
+.container div {
+    background-color: #3262ff;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.content-container div {
+    padding: 20px;
+    width: auto;
+}
+
+.content-container img {
+    border-radius: 30px;
+}
